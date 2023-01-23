@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1000&color=FF24AF&center=true&vCenter=true&width=435&lines=I'm+a+Teacher;Full+Stack+Web+Developer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=435&lines=I'm+a+Teacher;Full+Stack+Web+Developer" alt="Typing SVG" />
 </p>
 
 <!-- Social badges section -->
