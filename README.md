@@ -38,10 +38,10 @@
 </p>
 
 <p align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=XLR8-07&hide_border=true&count_private=true&show_icons=true&theme=buefy" alt="XLR8-07" align = "center"/>
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=XLR8-07&hide_border=true&count_private=true&show_icons=true&theme=buefy" alt="XLR8-07" align = "center"/>
 </p>
 <p align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=XLR8-07&show_icons=true&locale=en&layout=compact&hide_border=true&theme=buefy" alt="XLR8-07" align = "center"/>
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=XLR8-07&show_icons=true&locale=en&layout=compact&hide_border=true&theme=buefy" alt="XLR8-07" align = "center"/>
 
 <p align="center">
 &nbsp;
