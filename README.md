@@ -7,8 +7,6 @@
 </p>
 
 <!-- Social badges section -->
-<!-- Badges with custom icons - https://github.com/DenverCoder1/custom-icon-badges -->
-<!-- View counter - https://github.com/DenverCoder1/Simple-View-Counter -->
 <p align="center">
   <a href="https://www.linkedin.com/in/md-ashiqur-rahman-joy-4431ba118/"><img width="32px" alt="LinkedIn" title="LinkedIn" src="assets\linkedin.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
@@ -17,26 +15,139 @@
   <a href="mailto:joyashikur@gmail.com"><img width="32px" alt="Free Stuff" title="Free gifts for you" src="assets\gmail.png"/></a>
 </p>
 
+---
+
+&nbsp;
 <img src="assets\code.gif" alt="side Image" align="right" width="200" height="auto" />
 <img src="https://media3.giphy.com/media/ZEB6yFbLnhyQf7g3hn/giphy.gif" alt="side Gif" align="right" width="150" height="auto"/>
+
+🔭 I’m currently working as a **Lecturer** in [United International University](https://cse.uiu.ac.bd/profiles/rahman-md-ashiqur/)
+
+🌱 Completed my **BSc in Software Engineering** from [Islamic University of Technology](https://www.iutoic-dhaka.edu/)
+
+🔭 Previously, I worked as a **Full Stack Developer** at [Zipteams](https://zipteams.com/)
+
+---
+
+<br/>
+
+## 💻 Profile Statistics
+
+![VisitorCount](https://profile-counter.glitch.me/XLR8-07/count.svg)
+
+<p align="center">
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=XLR8-07&hide_border=true&count_private=true&show_icons=true&theme=buefy" alt="XLR8-07" align = "left"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=XLR8-07&show_icons=true&locale=en&layout=compact&hide_border=true&theme=buefy" alt="XLR8-07" align = "right"/>
+</p>
+<p align="center">
+&nbsp;
+<img src="https://streak-stats.demolab.com/?user=XLR8-07" alt="XLR8-07" align = "center"/>
+</p>
+<br/>
+
+## 🌱 Contributions
+
+[![Ashiqur's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=XLR8-07&theme=minimal)](https://github.com/XLR8-07/github-readme-activity-graph)
+
+## ⚡ Technologies
+
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="img/python-original.svg" width="48" height="48" alt="Python" />
+      </a>
+      <br>Python
+    </td>
+    <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="img/typescript-original.svg" width="48" height="48" alt="TypeScript" />
+      </a>
+      <br>TypeScript
+    </td>
+    <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="img/javascript-original.svg" width="48" height="48" alt="JavaScript" />
+      </a>
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+      <a href="#macropower-tech" >
+        <img src="img/react-original.svg" width="48" height="48" alt="React" />
+      </a>
+      <br>React
+    </td>
+    <td align="center"  width="96">
+      <a href="#macropower-tech">
+        <img src="img\icons8-tensorflow.svg" width="48" height="48" alt="MySQL" />
+      </a>
+      <br>Tensorflow
+    </td>
+    <td align="center"  width="96">
+      <a href="#macropower-tech">
+        <img src="img\icons8-angularjs.svg" width="48" height="48" alt="MySQL" />
+      </a>
+      <br>Angular
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96"> 
+      <a href="#macropower-tech" >
+        <img src="img/docker-original.svg" width="48" height="48" alt="Docker" />
+      </a>
+      <br>Docker
+    </td>
+    <td align="center"  width="96">
+      <a href="#macropower-tech">
+        <img src="img\icons8-nestjs-96.svg" width="48" height="48" alt="NestJs" />
+      </a>
+      <br>NestJS
+    </td>
+    <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="img\icons8-postgresql.svg" width="48" height="48" alt="Powershell" />
+      </a>
+      <br>PostgreSQL
+    </td>
+    <td align="center"  width="96">
+      <a href="#macropower-tech">
+        <img src="img/mysql-original.svg" width="48" height="48" alt="MySQL" />
+      </a>
+      <br>MySQL
+    </td>
+    <td align="center"  width="96">
+      <a href="#macropower-tech">
+        <img src="img\pytorch-icon.svg" width="48" height="48" alt="MySQL" />
+      </a>
+      <br>Pytorch
+    </td>
+    <td align="center"  width="96">
+      <a href="#macropower-tech">
+        <img src="img\icons8-firebase.svg" width="48" height="48" alt="MySQL" />
+      </a>
+      <br>Firebase
+    </td>
+  </tr>
+</table>
+
+<br>
   
-  - 🔭 I’m currently working as a Lecturer in [United International University](https://cse.uiu.ac.bd/profiles/rahman-md-ashiqur/)
-  - 🌱 Completed my BSc in Software Engineering from [Islamic University of Technology](https://www.iutoic-dhaka.edu/)
-  - 💬 Ask me about 
-  - 😄 Pronouns: He / Him
-  - ⚡ Fun fact:
+## 🏆 Achievements
+<p align="center"> <a href="https://github.com/XLR8-07"><img src="https://github-profile-trophy.vercel.app/?username=XLR8-07&theme=minimal" alt="XLR8-07" /></a> </p>
 
-<!--
-**XLR8-07/XLR8-07** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🔭 Institutions I have worked for
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  </br>
+  <a href="https://promactinfo.com/">
+    <img src="https://promactinfo.com/wp-content/uploads/2019/02/Logo-Black@2x-1.png" height=30>
+    </a>
+    &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287; 
+    <a href="https://zipteams.com">
+    <img src="https://zipteams.com/wp-content/uploads/2020/02/logo-1.jpg" height=30> 
+  </a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287; 
+  <a href="https://www.impulsebdltd.com/">
+    <img src="https://www.impulsebdltd.com/wp-content/themes/Akal-Child/images/IMpulse_Logo.png" height=30> 
+  </a>
+</p>
