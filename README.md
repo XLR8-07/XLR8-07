@@ -33,12 +33,16 @@
 
 ## 💻 Profile Statistics
 
-![VisitorCount](https://profile-counter.glitch.me/XLR8-07/count.svg)
+<p align="center">
+<img src="https://visitor-count-b8lb.vercel.app/api/XLR8-07" />
+</p>
 
 <p align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=XLR8-07&hide_border=true&count_private=true&show_icons=true&theme=buefy" alt="XLR8-07" align = "left"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=XLR8-07&show_icons=true&locale=en&layout=compact&hide_border=true&theme=buefy" alt="XLR8-07" align = "right"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=XLR8-07&hide_border=true&count_private=true&show_icons=true&theme=buefy" alt="XLR8-07" align = "center"/>
 </p>
+<p align="center">
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=XLR8-07&show_icons=true&locale=en&layout=compact&hide_border=true&theme=buefy" alt="XLR8-07" align = "center"/>
+
 <p align="center">
 &nbsp;
 <img src="https://streak-stats.demolab.com/?user=XLR8-07" alt="XLR8-07" align = "center"/>
@@ -139,14 +143,14 @@
 
 <p align="center">
   </br>
+  <a href="https://zipteams.com">
+    <img src="https://zipteams.com/wp-content/uploads/2020/02/logo-1.jpg" height=30> 
+  </a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287; 
   <a href="https://promactinfo.com/">
     <img src="https://promactinfo.com/wp-content/uploads/2019/02/Logo-Black@2x-1.png" height=30>
     </a>
     &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287; 
-    <a href="https://zipteams.com">
-    <img src="https://zipteams.com/wp-content/uploads/2020/02/logo-1.jpg" height=30> 
-  </a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;&#8287; 
   <a href="https://www.impulsebdltd.com/">
     <img src="https://www.impulsebdltd.com/wp-content/themes/Akal-Child/images/IMpulse_Logo.png" height=30> 
   </a>
