@@ -8,11 +8,13 @@
 
 <!-- Social badges section -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/md-ashiqur-rahman-joy-4431ba118/"><img width="32px" alt="LinkedIn" title="LinkedIn" src="assets\linkedin.png"/></a>
+  <a href="https://www.linkedin.com/in/md-ashiqur-rahman-joy-4431ba118/"><img width="32px" alt="LinkedIn" title="Contact me on LinkedIn" src="assets\linkedin.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://www.facebook.com/XLR8.85/"><img width="32px" alt="Dev.to" title="DenverCoder1 Dev.to" src="assets\facebook.png"></a>
+  <a href="https://www.facebook.com/XLR8.85/"><img width="32px" alt="Facebook" title="Contact me on Facebook" src="assets\facebook.png"></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="mailto:joyashikur@gmail.com"><img width="32px" alt="Free Stuff" title="Free gifts for you" src="assets\gmail.png"/></a>
+  <a href="mailto:joyashikur@gmail.com"><img width="32px" alt="Gmail" title="Contact me on Gmail" src="assets\gmail.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://www.upwork.com/freelancers/~015ae14198dee79c54"><img width="32px" alt="Upwork" title="Contact me on Upwork" src="img\upwork-icon.svg"/></a>
 </p>
 
 ---
