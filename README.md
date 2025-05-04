@@ -62,9 +62,9 @@ I'm **Ashiq**, a software engineer, currently based in Berlin.
 
 <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=XLR8-07&show_icons=true&hide_border=false&theme=transparent&title_color=1e3a8a&icon_color=0ea5e9&text_color=1e293b&bg_color=ffffff00" /> -->
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XLR8-07&layout=compact&theme=transparent&hide_border=false&theme=transparent&title_color=1e3a8a&text_color=1e293b&bg_color=ffffff00" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XLR8-07&layout=compact&theme=default&hide_border=false&langs_count=8" />
 
-<img height="180em" src="https://streak-stats.demolab.com?user=XLR8-07&theme=transparent&hide_border=false&short_numbers=true&ring=0ea5e9&fire=1e3a8a&currStreakLabel=1e3a8a&dates=334155&sideNums=334155" />
+<img height="180em" src="https://streak-stats.demolab.com?user=XLR8-07&theme=default&hide_border=false&short_numbers=true&ring=0ea5e9&fire=1e3a8a&currStreakLabel=1e3a8a&dates=334155&sideNums=334155" />
 
 </div>
 
