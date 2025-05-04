@@ -10,7 +10,7 @@
 
 <!-- 🌐 Social Icons - Custom SVGs with floating & rounded styling -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/md-ashiqur-rahman-4431ba118/">
+  <a href="https://www.linkedin.com/in/ashiqurrahman85/">
     <img src="https://img.shields.io/badge/LinkedIn-Ashiq-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:joyashikur@gmail.com">
