@@ -1,81 +1,24 @@
-<!-- Profile Banner -->
-<p align="center">
-  <img src="assets/Profile_Banner.png" width="80%" alt="Hi! I'm Ashiq 👋" />
-</p>
+<a href="https://ashiq.info">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="card/dark.svg">
+    <img alt="Ashiq, Software Engineer @ Navan, Berlin" src="card/light.svg">
+  </picture>
+</a>
 
-<!-- Typing animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0EA5E9&center=true&vCenter=true&width=700&lines=Software+Engineer+%7C+Berlin;Building+software+at+Enpal+%7C+Educator;Turning+problems+into+products." />
-</p>
+### Research
 
-<!-- 🌐 Social Icons - Custom SVGs with floating & rounded styling -->
-<p align="center">
-  <a href="https://www.linkedin.com/in/ashiqurrahman85/">
-    <img src="https://img.shields.io/badge/LinkedIn-Ashiq-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:joyashikur@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://ashiq.info">
-    <img src="https://img.shields.io/badge/Portfolio-ashiq.info-14B8A6?style=for-the-badge&logo=firefox-browser&logoColor=white" />
-  </a>
-  <a href="https://www.upwork.com/freelancers/~015ae14198dee79c54">
-    <img src="https://img.shields.io/badge/Upwork-Freelancer-6fda44?style=for-the-badge&logo=upwork&logoColor=white" />
-  </a>
-</p>
+LLM evaluation · image processing & vision systems · software for medical assistance
 
----
+- **FracAtlas**: bone-fracture X-ray dataset with YOLO-based localization · [code](https://github.com/XLR8-07/FracAtlas)
+- **MosquitoFusion**: dataset for real-time mosquito detection · [ICLR paper](https://openreview.net/pdf?id=3s4hFx8pYs) · [code](https://github.com/faiyazabdullah/MosquitoMiner)
+- **BanglaDocAtlas**: annotated dataset for Bangla document layout analysis · [IEEE HPEC 2025](https://doi.org/10.1109/HPEC67600.2025.11196300)
+- More on [Google Scholar](https://scholar.google.com/citations?user=ujAbMnwAAAAJ&hl=en)
 
-<h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚘𝚍𝚎𝚛𝚜/>! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
+### Lately building <sub>(private, happy to talk about them)</sub>
 
-I'm **Ashiq**, a software engineer, currently based in Berlin.
+- **HiveMind**: my self-hosted home server, fully defined in code
+- **daylog**: turns a day's PRs, reviews and meetings into a daily note
+- **RoleAlign**: matches a CV to job posts with ATS-style scoring
+- **German Driving Mania**: offline study app for the German driving theory test
 
-- 💼 Software Engineer @ [Enpal](https://www.enpal.de) — building scalable product software in the clean-energy space
-- ✍️ Currently exploring Distributed Systems and Robotics
-- 🎓 Taught Data Science and Mobile Application Development with React Native @ [UIU](https://www.uiu.ac.bd/)
-- 📄 Datasets and applied ML — [Google Scholar](https://scholar.google.com/citations?user=ujAbMnwAAAAJ&hl=en)
-- 💬 Let’s talk about opportunities and problems to solve.
-
----
-
-### 🧩 Featured Works
-
-| 🌟 Title | 📝 Description | 🔗 | 
-|-----------|----------------|----|
-| **M.I.D.A.S** | Mask Identification Door Access System | [GitHub](https://github.com/XLR8-07/Mask_detection_ESP32CAM) |
-| **FracAtlas** | Bone Fracture localization using YOLO | [GitHub](https://github.com/XLR8-07/FracAtlas) [PapersWithCode](https://paperswithcode.com/dataset/fracatlas) |
-| **MosquitoFusion** | Dataset for Real-Time Detection of Mosquitoes | [GitHub](https://github.com/faiyazabdullah/MosquitoMiner) [ICLR Paper](https://openreview.net/pdf?id=3s4hFx8pYs)|
-| **BanglaDocAtlas** | Multi-class annotated dataset for Bangla document layout analysis | [DOI (IEEE HPEC 2025)](https://doi.org/10.1109/HPEC67600.2025.11196300) |
-
----
-
-### ⚙️ Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nestjs,python,docker,pytorch,supabase,mongo,postgres,mysql,redis,kafka" />
-</p>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=XLR8-07&show_icons=true&hide_border=false&theme=transparent&title_color=1e3a8a&icon_color=0ea5e9&text_color=1e293b&bg_color=ffffff00" /> -->
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XLR8-07&layout=compact&theme=default&hide_border=false&langs_count=8" />
-
-<img height="180em" src="https://streak-stats.demolab.com?user=XLR8-07&theme=default&hide_border=false&short_numbers=true&ring=0ea5e9&fire=1e3a8a&currStreakLabel=1e3a8a&dates=334155&sideNums=334155" />
-
-</div>
-
----
-
-### 💬 Let’s Collaborate
-
-I'm always up for collaborations in education, AI, and full-stack innovation.
-
-> *"Let us cultivate our garden."* – Voltaire 🌱  
-📬 `joyashikur@gmail.com` | [ashiq.info](https://ashiq.info)
-
----
+<sub>[ashiq.info](https://ashiq.info) · [LinkedIn](https://www.linkedin.com/in/ashiqurrahman85/) · [joyashikur@gmail.com](mailto:joyashikur@gmail.com)</sub>

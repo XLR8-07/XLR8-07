@@ -1,0 +1,23 @@
+# Static text for the profile card. Edit this, push, and the workflow redraws the SVGs.
+# `{uptime}` is filled in by scripts/build_card.py.
+
+host = "ashiq@berlin"
+
+about = [
+  ["Role", "Software Engineer @ Navan"],
+  ["Previously", "Enpal, MyCashbacks · Lecturer @ UIU"],
+  ["Uptime", "{uptime}"],
+  ["Stack", "TypeScript, Python, NestJS, Next.js, Postgres, Docker"],
+  ["Research", ["LLM evals · image processing & vision systems", "software for medical assistance"]],
+  ["Workflow", "Terminal-first, AI-assisted (Claude Code)"],
+  ["Into", "Distributed systems, robotics, self-hosting"],
+]
+
+contact = [
+  ["Email", "joyashikur@gmail.com"],
+  ["Web", "ashiq.info"],
+  ["LinkedIn", "in/ashiqurrahman85"],
+]
+
+# Markup and notebooks inflate byte counts without saying much about what I write.
+ignore_languages = ["HTML", "CSS", "Jupyter Notebook", "Dockerfile", "Makefile"]

@@ -1,0 +1,33 @@
+name: Update profile card
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - card/profile.toml
+      - card/avatar.txt
+      - scripts/build_card.py
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/build_card.py
+        env:
+          GH_TOKEN: ${{ secrets.CARD_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git diff --quiet card/ && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update profile card"
+          git push
