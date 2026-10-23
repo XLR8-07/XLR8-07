@@ -8,6 +8,7 @@ the numbers from the GitHub GraphQL API. Only totals are written, never repo nam
 
 import json
 import os
+import sys
 import tomllib
 import urllib.request
 from datetime import datetime, timezone
@@ -179,6 +180,8 @@ def render(theme, portrait, lines):
 
 def main():
     profile = tomllib.loads((CARD / "profile.toml").read_text())
+    if not os.environ.get("GH_TOKEN"):
+        sys.exit("GH_TOKEN is empty: add a CARD_TOKEN repository secret (classic PAT, repo + read:user)")
     portrait = (CARD / "avatar.txt").read_text().rstrip("\n").split("\n")
     stats = fetch_stats(set(profile.get("ignore_languages", [])))
     lines = build_lines(profile, stats)
