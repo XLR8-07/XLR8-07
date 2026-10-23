@@ -1,13 +1,15 @@
 """Render the neofetch-style profile card as card/light.svg and card/dark.svg.
 
-Static text comes from card/profile.toml, the portrait from card/avatar.txt and
+Static text comes from card/profile.toml, the portrait from card/avatar.json and
 the numbers from the GitHub GraphQL API. Only totals are written, never repo names.
 
     GH_TOKEN=... python3 scripts/build_card.py
 """
 
+import colorsys
 import json
 import os
+import sys
 import tomllib
 import urllib.request
 from datetime import datetime, timezone
@@ -21,16 +23,18 @@ FONT_SIZE = 15
 CHAR_W = FONT_SIZE * 0.62  # widest common monospace fallback (Menlo, DejaVu)
 LINE_H = 20
 PAD = 24
-GAP = 4  # columns between portrait and text
+GAP = 3  # columns between portrait and text
+ASCII_FONT = 9  # the portrait uses a smaller font so it can hold more detail
+ASCII_LINE = 10.35
 KEY_W = 17  # key plus dot leader, in characters
 
 THEMES = {
     "light": {
-        "bg": "#f6f8fa", "border": "#d0d7de", "text": "#24292f", "ascii": "#57606a",
+        "bg": "#f6f8fa", "border": "#d0d7de", "text": "#24292f", "max_lightness": 0.6,
         "host": "#0969da", "key": "#953800", "value": "#0a3069", "dim": "#8c959f",
     },
     "dark": {
-        "bg": "#161b22", "border": "#30363d", "text": "#c9d1d9", "ascii": "#8b949e",
+        "bg": "#161b22", "border": "#30363d", "text": "#c9d1d9", "min_lightness": 0.42,
         "host": "#58a6ff", "key": "#ffa657", "value": "#a5d6ff", "dim": "#6e7681",
     },
 }
@@ -52,6 +56,17 @@ query($cursor: String) {
   }
 }
 """
+
+
+def portrait_colour(hex_, theme):
+    """Keep the photo's colours but make sure they stand out from the card background."""
+    r, g, b = (int(hex_[i : i + 2], 16) / 255 for i in (1, 3, 5))
+    h, l, s = colorsys.rgb_to_hls(r, g, b)
+    s *= min(1, l / 0.3) ** 2  # near-black pixels have noisy hues; render them as grey
+    l = max(l, theme.get("min_lightness", 0))
+    l = min(l, theme.get("max_lightness", 1))
+    r, g, b = colorsys.hls_to_rgb(h, l, min(1, s * 1.25))
+    return "#" + "".join(f"{round(c * 255):02x}" for c in (r, g, b))
 
 
 def graphql(query, variables=None):
@@ -146,40 +161,48 @@ def build_lines(profile, stats):
 
 def render(theme, portrait, lines):
     c = THEMES[theme]
-    art_w = max(len(row) for row in portrait)
-    text_w = max(sum(len(t) for _, t in row) for row in lines)
-    rows = max(len(portrait), len(lines))
-    width = round(2 * PAD + (art_w + GAP + text_w) * CHAR_W)
-    height = 2 * PAD + rows * LINE_H
-    text_x = PAD + (art_w + GAP) * CHAR_W
-    top = PAD + (rows - len(portrait)) * LINE_H // 2 + FONT_SIZE
+    art_w = max(sum(len(t) for t, _ in row) for row in portrait) * ASCII_FONT * 0.62
+    art_h = len(portrait) * ASCII_LINE
+    text_w = max(sum(len(t) for _, t in row) for row in lines) * CHAR_W
+    text_h = len(lines) * LINE_H
+    width = round(2 * PAD + art_w + GAP * CHAR_W + text_w)
+    height = round(2 * PAD + max(art_h, text_h))
+    text_x = PAD + art_w + GAP * CHAR_W
+    art_top = PAD + (height - 2 * PAD - art_h) / 2 + ASCII_FONT
+    text_top = PAD + (height - 2 * PAD - text_h) / 2 + FONT_SIZE
 
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}"'
         f' viewBox="0 0 {width} {height}" font-family="Consolas, Menlo, \'DejaVu Sans Mono\', \'Courier New\', monospace"'
         f' font-size="{FONT_SIZE}px">',
         "<style>"
-        + "".join(f".{k}{{fill:{c[k]}}}" for k in ("text", "ascii", "host", "key", "value", "dim"))
+        + "".join(f".{k}{{fill:{c[k]}}}" for k in ("text", "host", "key", "value", "dim"))
         + "</style>",
         f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12"'
         f' fill="{c["bg"]}" stroke="{c["border"]}"/>',
-        f'<text class="ascii" xml:space="preserve">',
+        f'<text font-size="{ASCII_FONT}px" font-weight="bold" xml:space="preserve">',
     ]
     for i, row in enumerate(portrait):
-        out.append(f'<tspan x="{PAD}" y="{top + i * LINE_H}">{escape(row)}</tspan>')
+        spans = "".join(
+            escape(t) if hex_ is None else f'<tspan fill="{portrait_colour(hex_, c)}">{escape(t)}</tspan>'
+            for t, hex_ in row
+        )
+        out.append(f'<tspan x="{PAD}" y="{art_top + i * ASCII_LINE:.1f}">{spans}</tspan>')
     out.append("</text>")
 
     out.append('<text class="text" xml:space="preserve">')
     for i, row in enumerate(lines):
         spans = "".join(f'<tspan class="{cls}">{escape(t)}</tspan>' for cls, t in row)
-        out.append(f'<tspan x="{text_x:.1f}" y="{PAD + FONT_SIZE + i * LINE_H}">{spans}</tspan>')
+        out.append(f'<tspan x="{text_x:.1f}" y="{text_top + i * LINE_H:.1f}">{spans}</tspan>')
     out.append("</text></svg>")
     return "\n".join(out) + "\n"
 
 
 def main():
     profile = tomllib.loads((CARD / "profile.toml").read_text())
-    portrait = (CARD / "avatar.txt").read_text().rstrip("\n").split("\n")
+    if not os.environ.get("GH_TOKEN"):
+        sys.exit("GH_TOKEN is empty: add a CARD_TOKEN repository secret (classic PAT, repo + read:user)")
+    portrait = json.loads((CARD / "avatar.json").read_text())
     stats = fetch_stats(set(profile.get("ignore_languages", [])))
     lines = build_lines(profile, stats)
     for theme in THEMES:
