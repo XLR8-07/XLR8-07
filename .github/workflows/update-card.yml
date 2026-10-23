@@ -7,7 +7,7 @@ on:
   push:
     paths:
       - card/profile.toml
-      - card/avatar.json
+      - card/avatar.txt
       - scripts/build_card.py
 
 permissions:
