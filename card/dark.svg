@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1052" height="448" viewBox="0 0 1052 448" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="15px">
+<style>.text{fill:#c9d1d9}.ascii{fill:#8b949e}.host{fill:#58a6ff}.key{fill:#ffa657}.value{fill:#a5d6ff}.dim{fill:#6e7681}</style>
+<rect x="0.5" y="0.5" width="1051" height="447" rx="12" fill="#161b22" stroke="#30363d"/>
+<text class="ascii" xml:space="preserve">
+<tspan x="24" y="39">            : --  :</tspan>
+<tspan x="24" y="59">         -==#*#@%%@@%#==+:</tspan>
+<tspan x="24" y="79">           -%@@@@@@@@@@@@@#-</tspan>
+<tspan x="24" y="99">        =-:=@@@@@@@@@@@@@@@@*</tspan>
+<tspan x="24" y="119">        =+%@@@@@@@@@@@@@@@@@@*</tspan>
+<tspan x="24" y="139">          *@@@@@@@@@@@@@@@@@@#</tspan>
+<tspan x="24" y="159">          #@%*===+*##*+=-=+%@*</tspan>
+<tspan x="24" y="179">          +@+-----::..:::::-@=</tspan>
+<tspan x="24" y="199">           @*=++++#**#+=====@=</tspan>
+<tspan x="24" y="219">         :-#*:--=:**=#:--::-#=:</tspan>
+<tspan x="24" y="239">         :==+====++-:-+=---+==-</tspan>
+<tspan x="24" y="259">           :-====----::-----:</tspan>
+<tspan x="24" y="279">             ---:..  . :::::</tspan>
+<tspan x="24" y="299">              :----:::::::</tspan>
+<tspan x="24" y="319">                -===---:</tspan>
+<tspan x="24" y="339">           :=+-:---------=+-</tspan>
+<tspan x="24" y="359">         =#%@@%%#*+==+*#%%@%%*-</tspan>
+<tspan x="24" y="379">        *@%%%%%%%%%%%%%%%%%%%%@*</tspan>
+<tspan x="24" y="399">       *@%%%%%%%%%%%%%%%%%%%%%%@+</tspan>
+<tspan x="24" y="419">       #%%%%%%%%%%%%%%%%%%%%%%%%#</tspan>
+</text>
+<text class="text" xml:space="preserve">
+<tspan x="368.1" y="39"><tspan class="host">ashiq@berlin</tspan></tspan>
+<tspan x="368.1" y="59"><tspan class="dim">———————————————————————————————————————————————————————————————————————</tspan></tspan>
+<tspan x="368.1" y="79"><tspan class="key">Role:</tspan><tspan class="dim"> ........... </tspan><tspan class="value">Software Engineer @ Navan</tspan></tspan>
+<tspan x="368.1" y="99"><tspan class="key">Previously:</tspan><tspan class="dim"> ..... </tspan><tspan class="value">Enpal, MyCashbacks · Lecturer @ UIU</tspan></tspan>
+<tspan x="368.1" y="119"><tspan class="key">Uptime:</tspan><tspan class="dim"> ......... </tspan><tspan class="value">8 years, 1 month on GitHub</tspan></tspan>
+<tspan x="368.1" y="139"><tspan class="key">Stack:</tspan><tspan class="dim"> .......... </tspan><tspan class="value">TypeScript, Python, NestJS, Next.js, Postgres, Docker</tspan></tspan>
+<tspan x="368.1" y="159"><tspan class="key">Research:</tspan><tspan class="dim"> ....... </tspan><tspan class="value">LLM evals · image processing &amp; vision systems</tspan></tspan>
+<tspan x="368.1" y="179"><tspan class="value">                  software for medical assistance</tspan></tspan>
+<tspan x="368.1" y="199"><tspan class="key">Workflow:</tspan><tspan class="dim"> ....... </tspan><tspan class="value">Terminal-first, AI-assisted (Claude Code)</tspan></tspan>
+<tspan x="368.1" y="219"><tspan class="key">Into:</tspan><tspan class="dim"> ........... </tspan><tspan class="value">Distributed systems, robotics, self-hosting</tspan></tspan>
+<tspan x="368.1" y="239"></tspan>
+<tspan x="368.1" y="259"><tspan class="dim">— </tspan><tspan class="host">Contact</tspan><tspan class="dim"> —————————————————————————————————————————————————————————————</tspan></tspan>
+<tspan x="368.1" y="279"><tspan class="key">Email:</tspan><tspan class="dim"> .......... </tspan><tspan class="value">joyashikur@gmail.com</tspan></tspan>
+<tspan x="368.1" y="299"><tspan class="key">Web:</tspan><tspan class="dim"> ............ </tspan><tspan class="value">ashiq.info</tspan></tspan>
+<tspan x="368.1" y="319"><tspan class="key">LinkedIn:</tspan><tspan class="dim"> ....... </tspan><tspan class="value">in/ashiqurrahman85</tspan></tspan>
+<tspan x="368.1" y="339"></tspan>
+<tspan x="368.1" y="359"><tspan class="dim">— </tspan><tspan class="host">GitHub</tspan><tspan class="dim"> ——————————————————————————————————————————————————————————————</tspan></tspan>
+<tspan x="368.1" y="379"><tspan class="key">Repos:</tspan><tspan class="dim"> .......... </tspan><tspan class="value">91 · Stars 34 · Followers 67</tspan></tspan>
+<tspan x="368.1" y="399"><tspan class="key">Contributions:</tspan><tspan class="dim"> .. </tspan><tspan class="value">2,531 (incl. private)</tspan></tspan>
+<tspan x="368.1" y="419"><tspan class="key">Languages:</tspan><tspan class="dim"> ...... </tspan><tspan class="value">TypeScript 57% · Python 22% · Shell 8%</tspan></tspan>
+</text></svg>
